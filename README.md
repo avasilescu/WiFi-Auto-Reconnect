@@ -1,7 +1,7 @@
 # WiFi-Auto-Reconnect
 Bash script that auto reconnects the WiFi if it cannot connect to various servers (google, bing, yahoo, etc).
 
-Pings servers 4 times. If all servers fail ping response, wifi is turned on. 
+Pings servers 4 times. If all servers fail ping response, wifi is restarted (turned off then back on). 
 
 *NOTE: This script will use 'sudo' as 'ifup' requires 'sudo'. This may change in the future once a better way is figured out, but for now this is what it is.
 
