@@ -7,11 +7,11 @@ Pings servers 4 times. If all servers fail ping response, wifi is restarted (tur
 
 ## Setup
 ### Make script executable by root
-`sudo chmod +x filename.sh`
+`sudo chmod +x wifi-auto-reconnect.sh`
 
 ### Create a cronjob
 At the command line
 `crontab -e`
 
 Add the following line if you want to run the script once per hour at the top of the hour. See crontab for more details.
-`0 * * * * /location/of/file.sh`
+`0 * * * * /location/of/wifi-auto-reconnect.sh`
